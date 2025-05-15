@@ -1,0 +1,31 @@
+{
+    "timestamp": "20250515_143415",
+    "best_params": {
+        "rolling_volatility_window": 14,
+        "trix_period": 68,
+        "tema_period": 52,
+        "bbands_period": 16,
+        "macd_fast": 10,
+        "macd_slow": 12,
+        "obv_window": 31,
+        "ewma_span": 25,
+        "num_leaves": 32,
+        "learning_rate": 0.031570965396726394,
+        "n_estimators": 212,
+        "min_child_samples": 28,
+        "subsample": 0.7814872381959017,
+        "colsample_bytree": 0.8959407874032123,
+        "reg_alpha": 0.9096547094927694,
+        "reg_lambda": 0.5467214839762851
+    },
+    "accuracy": 0.5872,
+    "precision": 0.5983,
+    "recall": 0.2314,
+    "f1_score": 0.3338,
+    "duration_seconds": 2621.71,
+    "portfolio_balances": {
+        "dynamic": 10270.36,
+        "balanced": 10082.64,
+        "ultra_aggressive": 10556.2
+    }
+}
